@@ -1,28 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
- *{
-	 margin:0;
-	 padding:5px;
-	 box-sizing: border-box;
-	 }
-body{
-	font-family: 'Montaga', serif;
-	background-color:#FFC;
-	}	 
-header{
-	width:100%;
-	height:70px;
-	background-color:#600;
-	color:#FFF;
-	position: fixed;
-	top:0;
-	left: 0;
-	z-index: 100;
-	padding: 3px;
-	
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+section p{
+	font-family: 'Frank Ruhl Libre', serif;
 	}
-.contenedor{
-	width: 98%;
-	margin:0;
+section h1{
+	text-align:center;
+	font-size: 36px;
 	}	
+section article{
+	padding:80px;
+	}	
+img {
+	padding:10px;
+	float:left;
+	}		
+
